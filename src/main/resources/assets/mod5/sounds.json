@@ -1,0 +1,10 @@
+{
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "mod5:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

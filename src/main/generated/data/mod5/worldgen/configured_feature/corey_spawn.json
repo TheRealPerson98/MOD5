@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "mod5:corey_placed",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "mod5:corey_placed"
+      }
+    ]
+  }
+}
