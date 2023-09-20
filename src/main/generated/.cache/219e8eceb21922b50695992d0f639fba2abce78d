@@ -1,0 +1,9 @@
+// 1.20.1	2023-09-20T12:18:44.0705145	Mod5/Block Loot Tables
+47a6306e1a90d0709e3c4140076bdf8368a9b1ff data\mod5\loot_tables\blocks\gray_corey_block.json
+38beb87092d3700bab3db5236d0d6085ffa29dc6 data\mod5\loot_tables\blocks\green_corey_block.json
+06939a4c4676b2b79ab4d30b1d827271a2313fc0 data\mod5\loot_tables\blocks\dark_green_corey_block.json
+da824048d50e56059dcba96f30a0d75701e10bad data\mod5\loot_tables\blocks\corey_ore.json
+075047a99e44ef1ed11383ca6bf298bc9340dedc data\mod5\loot_tables\blocks\brown_corey_block.json
+28d27cf0b4d9717cccd485fb4d50d8ada7141db8 data\mod5\loot_tables\blocks\green_corey_block_sapling.json
+ae2e258f94d3bc38855fc4bc0343baa04b19e310 data\mod5\loot_tables\blocks\purple_corey_block.json
+44597715597a58aecb9a6478d3d0a7f1188bef19 data\mod5\loot_tables\blocks\corey_block.json

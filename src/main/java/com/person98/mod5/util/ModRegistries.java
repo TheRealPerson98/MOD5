@@ -2,7 +2,12 @@ package com.person98.mod5.util;
 
 import com.person98.mod5.Mod5;
 import com.person98.mod5.block.ModBlocks;
+import com.person98.mod5.entity.ModEntities;
+import com.person98.mod5.entity.custom.CoreyCreeperEntity;
+import com.person98.mod5.entity.custom.CoreyEntity;
+import com.person98.mod5.entity.custom.CoreyPigEntity;
 import com.person98.mod5.item.ModItems;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.minecraft.util.Identifier;
@@ -36,6 +41,9 @@ public class ModRegistries {
     }
 
     private static void registerAttributes() {
+        FabricDefaultAttributeRegistry.register(ModEntities.COREY_CREEPER, CoreyCreeperEntity.createCoreyCreeperAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.COREY, CoreyEntity.createCoreyAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.COREY_PIG, CoreyPigEntity.createCoreyPigAttributes());
     }
 
     private static void registerModCompostables() {

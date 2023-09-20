@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "mod5:corey_planks"
+    }
+  },
+  "pattern": [
+    "R ",
+    "R "
+  ],
+  "result": {
+    "count": 2,
+    "item": "mod5:corey_stick"
+  },
+  "show_notification": true
+}

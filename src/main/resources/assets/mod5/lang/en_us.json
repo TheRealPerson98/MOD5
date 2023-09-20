@@ -1,6 +1,29 @@
 {
 
   "item.mod5.corey_lighter": "Corey Lighter",
+  "item.mod5.corey_stick": "Corey Stick",
+  "item.mod5.corey_sword": "Corey Sword",
+  "item.mod5.corey_pickaxe": "Corey Pickaxe",
+  "item.mod5.corey_axe": "Corey Axe",
+  "item.mod5.corey_shovel": "Corey Shovel",
+  "item.mod5.corey_hoe": "Corey Hoe",
+  "item.mod5.corey_creeper_spawn_egg": "Corey Creeper Spawn Egg",
+  "item.mod5.corey_spawn_egg": "Corey Spawn Egg",
+  "item.mod5.corey_pig_spawn_egg": "Corey Pig Spawn Egg",
+  "item.mod5.corey": "Corey",
+  "item.mod5.raw corey": "Raw Corey",
+
+  "item.mod5.corey_helmet": "Corey Helmet",
+  "item.mod5.corey_chestplate": "Corey Chestplate",
+  "item.mod5.corey_leggings": "Corey Leggings",
+  "item.mod5.corey_boots": "Corey Boots",
+
+  "block.mod5.corey_ore": "Corey Ore",
+  "block.mod5.corey_block": "Block of Corey",
+
+
+
+
 
   "block.mod5.purple_corey_block": "Block of purple Corey",
   "block.mod5.green_corey_block": "Block of green Corey",
@@ -9,6 +32,7 @@
   "block.mod5.brown_corey_block": "Block of brown Corey",
   "block.mod5.green_corey_block_sapling": "Corey Sapling",
   "block.mod5.gray_corey_block": "Block of gray Corey",
+  "item.mod5.corey_planks": "Corey Planks",
 
 
 

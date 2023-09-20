@@ -23,9 +23,33 @@ public class ModItemGroup {
                         entries.add(ModBlocks.BROWN_COREY_BLOCK);
                         entries.add(ModBlocks.DARK_GREEN_COREY_BLOCK);
                         entries.add(ModBlocks.GREEN_COREY_BLOCK_SAPLING);
+                        entries.add(ModBlocks.COREY_PLANKS);
+
+                        entries.add(ModBlocks.COREY_ORE);
+                        entries.add(ModBlocks.COREY_BLOCK);
 
 
                         entries.add(ModItems.COREY_LIGHTHER);
+                        entries.add(ModItems.COREY_STICK);
+
+                        entries.add(ModItems.COREY_SWORD);
+                        entries.add(ModItems.COREY_PICKAXE);
+                        entries.add(ModItems.COREY_SHOVEL);
+                        entries.add(ModItems.COREY_AXE);
+                        entries.add(ModItems.COREY_HOE);
+
+                        entries.add(ModItems.COREY_CREEPER_SPAWN_EGG);
+                        entries.add(ModItems.COREY_SPAWN_EGG);
+                        entries.add(ModItems.COREY_PIG_SPAWN_EGG);
+
+                        entries.add(ModItems.COREY_HELMET);
+                        entries.add(ModItems.COREY_CHESTPLATE);
+                        entries.add(ModItems.COREY_LEGGINGS);
+                        entries.add(ModItems.COREY_BOOTS);
+
+                        entries.add(ModItems.COREY);
+                        entries.add(ModItems.RAW_COREY);
+
 
 
 

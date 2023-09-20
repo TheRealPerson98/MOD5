@@ -7,5 +7,7 @@ public class ModWorldGen {
     public static void generateWorldGen() {
         Mod5.LOGGER.info("loaded ModWorldGen");
         ModTreeGeneration.generateTrees();
+        ModEntitySpawns.addSpawns();
+
     }
 }

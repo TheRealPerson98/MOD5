@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "corey",
+  "ingredient": {
+    "item": "mod5:corey_ore"
+  },
+  "result": "mod5:corey"
+}

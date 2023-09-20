@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "mod5:corey_block",
+    "mod5:corey_ore",
+    "mod5:purple_corey_block",
+    "mod5:green_corey_block",
+    "mod5:gray_corey_block",
+    "mod5:brown_corey_block",
+    "mod5:dark_green_corey_block",
+    "mod5:green_corey_block_sapling"
+  ]
+}

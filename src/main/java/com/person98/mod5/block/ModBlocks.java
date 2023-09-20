@@ -5,30 +5,37 @@ import com.person98.mod5.world.biome.tree.DogwoodSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-import net.minecraft.block.enums.Instrument;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block PURPLE_COREY_BLOCK = registerBlock("purple_corey_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
     public static final Block GREEN_COREY_BLOCK = registerBlock("green_corey_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).solid().strength(1.5f).allowsSpawning((state, world, pos, type) -> true).solidBlock((state, world, pos) -> true)));
     public static final Block GREEN_COREY_BLOCK_SAPLING = registerBlock("green_corey_block_sapling",
             new SaplingBlock(new DogwoodSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
     public static final Block GRAY_COREY_BLOCK = registerBlock("gray_corey_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(1.5f)));
     public static final Block DARK_GREEN_COREY_BLOCK = registerBlock("dark_green_corey_block",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
 
     public static final Block BROWN_COREY_BLOCK = registerBlock("brown_corey_block",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(1.5f)));
+
+    public static final Block COREY_PLANKS = registerBlock("corey_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(1.5f)));
+
+    public static final Block COREY_ORE = registerBlock("corey_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).strength(1.5f)));
+
+    public static final Block COREY_BLOCK = registerBlock("corey_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).strength(1.5f)));
+
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(Mod5.MOD_ID, name), block);
     }

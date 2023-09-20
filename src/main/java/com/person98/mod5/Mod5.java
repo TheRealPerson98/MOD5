@@ -1,7 +1,9 @@
 package com.person98.mod5;
 
 import com.person98.mod5.block.ModBlocks;
+import com.person98.mod5.entity.ModEntities;
 import com.person98.mod5.item.ModItemGroup;
+import com.person98.mod5.item.ModItems;
 import com.person98.mod5.sound.ModSounds;
 import com.person98.mod5.util.ModRegistries;
 import com.person98.mod5.world.gen.ModWorldGen;
@@ -18,11 +20,15 @@ public class Mod5 implements ModInitializer {
 
 		ModItemGroup.registerItemGroups();
 
+		ModItems.registerModItems();
+
 		ModBlocks.registerModBlocks();
 
 		ModRegistries.registerModStuffs();
 
 		ModSounds.registerSounds();
+
+		ModEntities.registerModEntities();
 
 		ModWorldGen.generateWorldGen();
 

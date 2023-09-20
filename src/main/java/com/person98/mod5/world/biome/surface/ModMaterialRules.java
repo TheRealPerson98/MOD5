@@ -22,9 +22,7 @@ public class ModMaterialRules {
                                 MaterialRules.condition(MaterialRules.STONE_DEPTH_FLOOR, RAW_PINK_GARNET)),
                         MaterialRules.condition(MaterialRules.STONE_DEPTH_CEILING, PINK_GARNET)),
 
-                MaterialRules.sequence(MaterialRules.condition(MaterialRules.biome(ModBiomes.TEST_BIOME_2),
-                                MaterialRules.condition(MaterialRules.STONE_DEPTH_FLOOR, RAW_PINK_GARNET)),
-                        MaterialRules.condition(MaterialRules.STONE_DEPTH_CEILING, PINK_GARNET)),
+
 
 
                 // Default to a grass and dirt surface

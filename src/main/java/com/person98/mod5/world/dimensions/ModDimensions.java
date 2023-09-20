@@ -26,8 +26,8 @@ public class ModDimensions {
 
     public static void bootstrapType(Registerable<DimensionType> context) {
         context.register(KAUPEN_DIM_TYPE, new DimensionType(
-                OptionalLong.of(12000), // fixedTime
-                false, // hasSkylight
+                OptionalLong.of(6000), // fixedTime
+                true, // hasSkylight
                 false, // hasCeiling
                 false, // ultraWarm
                 true, // natural
@@ -39,7 +39,7 @@ public class ModDimensions {
                 256, // logicalHeight
                 BlockTags.INFINIBURN_OVERWORLD, // infiniburn
                 DimensionTypes.OVERWORLD_ID, // effectsLocation
-                1.0f, // ambientLight
-                new DimensionType.MonsterSettings(false, false, UniformIntProvider.create(0, 0), 0)));
+                0.0f, // ambientLight
+                new DimensionType.MonsterSettings(false, false, UniformIntProvider.create(0, 7), 0)));
     }
 }

@@ -1,0 +1,5 @@
+// 1.20.1	2023-09-20T12:18:44.0725136	Mod5/Tags for minecraft:block
+f3af66f7410fd5c7077c23f87eb0ca1a870cb3bf data\minecraft\tags\blocks\needs_iron_tool.json
+e4cff959f2f3232e0177fc6ab5f92763950e56c6 data\minecraft\tags\blocks\needs_diamond_tool.json
+7533ed1ba981b0456006cb12a06dfb8252bd7721 data\minecraft\tags\blocks\valid_spawn.json
+87a1e6664adad6fd179e28cf3027ec2afc593c76 data\minecraft\tags\blocks\mineable\pickaxe.json

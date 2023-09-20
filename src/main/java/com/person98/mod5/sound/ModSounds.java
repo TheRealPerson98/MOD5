@@ -3,7 +3,6 @@ package com.person98.mod5.sound;
 import com.person98.mod5.Mod5;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
